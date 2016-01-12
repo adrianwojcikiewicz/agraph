@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row" style="position: absolute; z-index: 5">
+            <div class="col-md-12">
+                <h1 class="display-2">agraph.js</h1>
+                <h6>An awesome graph library!</h6>
+            </div>
+        </div>
+    </div>
+
+    <div id="agraph" style="margin: 0px 0 0 0px;"></div>
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.cookie.js"></script>
+    <script src="/js/tether/dist/js/tether.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+
+    <script src="/js/agraph/agraph.js"></script>
+
+
+
+    <script>
+        $( document ).ready(function() {
+            $('#agraph').agraph({
+                workspaceWidth: 1903,
+                workspaceHeight: 2000
+            });
+        });
+    </script>
+
+</body>
+</html>
